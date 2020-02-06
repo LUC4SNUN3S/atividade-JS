@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript">
+    
+    function multvalores(){
+var s = document.getElementById("txt1").value;
+var o = document.getElementById("txt2").value;
+var resul = s*o;
+alert(resul);
+
+    }
+    function somavalue(){
+    var e = document.getElementById("txt1").value;
+    var i = document.getElementById("txt2").value;
+    var re = parseInt(e) + parseInt(i);
+    alert(re);
+
+    }
+    function quavalores(){
+var a = document.getElementById("txt3").value;
+var opa = a*a;
+alert(opa);
+
+}
+
+
+function quadvalores(){
+var s = document.getElementById("txt1").value;
+var o = document.getElementById("txt2").value;
+var resul = s*o/2;
+alert(resul);
+
+    }  
+    
+    
+    </script>x
+    <title>java script</title>
+</head>
+<body>
+   <h1>valor 1</h1>
+   <input id="txt1"type="text">
+   <h1>valor 2</h1>
+   <input id="txt2"type="text">
+   <h1>valor 3(quadrado)</h1>
+   <input id="txt3"type="text">
+  
+   <br>
+   <br>
+   <br>
+<button id="multi" onclick="multvalores()">multiplicar</button>
+<button id="soma" onclick="somavalue()"> somar</button>
+<button id="quadrado" onclick="quavalores()"> quadrado</button>
+<button id="quadrilat" onclick="quadvalores()"> quadrilatero</button>
+</body>
+</html>
