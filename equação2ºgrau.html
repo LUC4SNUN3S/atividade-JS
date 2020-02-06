@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript">
+    
+        function multvalores(){
+    var s = document.getElementById("txt1").value;
+    var o = document.getElementById("txt2").value;
+    var c = document.getElementById("txt3").value;
+    var delta = q-4*s*c;
+    var dois = 2*s
+    var bhaskara = -o+raiz/dois;
+    var bhaskara2 = -o-raiz/dois;
+    var q = o*o;
+   
+    var r11= delta*delta*delta;
+    var r1 = delta*delta;
+    var raiz = r11/r1                                                     
+    
+    
+        document.getElementById("op").innerText=bhaskara;
+        document.getElementById("op1").innerText=bhaskara2;
+        }
+        </script>
+    <title>js</title>
+</head>
+<body>
+    <H1>EQUAÇÃO DE 2° GRAU</H1>
+    <h1>valor de A</h1>
+    <input id="txt1"type ="text">
+    <h1>valor de B</h1>
+    <input id="txt2"type="text">
+    <h1>valor de C</h1>
+    <input id="txt3"type="text">
+   
+    <br>
+    <br>
+    <br>
+ 
+ <button id="multi" onclick="multvalores()">resultado</button>
+ <span>x1 é = a:</span> <label id="op"></label>
+ <br>
+ <span>x2 é = a:</span> <label id="op1"></label>
+</body>
+</html>

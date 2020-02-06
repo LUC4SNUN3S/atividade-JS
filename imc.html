@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript">
+    
+        function multvalores(){
+    var s = document.getElementById("txt1").value;
+    var o = document.getElementById("txt2").value;
+    var q = o*o;
+    var resul = s/q;
+    
+    
+        document.getElementById("op").innerText = resul
+        }
+        </script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>informe seu peso</h1>
+    <input id="txt1"type="text">
+    <h1>informe sua altura</h1>
+    <input id="txt2"type="text">
+  
+   
+    <br>
+    <br>
+    <br>
+ 
+ <button id="multi" onclick="multvalores()">resultado</button>
+ <span>seu imc é:</span> <label id="op"></label>
+ 
+    
+</body>
+</html>

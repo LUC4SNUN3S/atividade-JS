@@ -37,9 +37,23 @@ alert(resul);
     }  
     
     
-    </script>x
-    <title>java script</title>
-</head>
+function subvalores(){
+var s = document.getElementById("txt1").value;
+var o = document.getElementById("txt2").value;
+var resul = s-o;
+alert(resul);
+
+    }  
+    function divvalores(){
+var s = document.getElementById("txt1").value;
+var o = document.getElementById("txt2").value;
+var resul = s/o;
+alert(resul);
+
+    }  
+    </script>
+    <title>Javascript</title>
+</head>''
 <body>
    <h1>valor 1</h1>
    <input id="txt1"type="text">
@@ -51,9 +65,13 @@ alert(resul);
    <br>
    <br>
    <br>
+
 <button id="multi" onclick="multvalores()">multiplicar</button>
 <button id="soma" onclick="somavalue()"> somar</button>
 <button id="quadrado" onclick="quavalores()"> quadrado</button>
 <button id="quadrilat" onclick="quadvalores()"> quadrilatero</button>
+<button id="sub" onclick="subvalores()"> subtrair</button>
+<button id="div" onclick="divvalores()"> divisão</button> 
+
 </body>
 </html>
